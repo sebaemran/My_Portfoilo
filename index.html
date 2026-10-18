@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<body>
+    <header>
+        <nav class="container">
+            <h1>My Portfolio</h1>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#connect">Connect</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button id="themeButton" type="button">
+                Dark Theme
+            </button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2>Seba Emran</h2>
+
+                <p>
+                    Computer Engineer interested in software
+                    development, App Development and web technologies.
+                </p>
+
+                <p>
+                    I enjoy learning new technologies and building
+                    useful applications.
+                </p>
+
+                <a href="#projects" class="main-link">
+                    Explore My Projects →
+                </a>
+            </div>
+
+            <div class="profile">
+                <img src="assets/profile.jpg" alt="My Profile Photo">
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="section-heading">
+                <h2>Technical Skills</h2>
+                <p>Technologies and tools I have worked with.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill">
+                    <span class="skill-number">01</span>
+                    <h3>Flutter</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">02</span>
+                    <h3>Java</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">03</span>
+                    <h3>C#</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">04</span>
+                    <h3>SQL</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">05</span>
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">06</span>
+                    <h3>CSS</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">07</span>
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="section-heading">
+                <h2>Soft Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill">
+                    <span class="skill-number">01</span>
+                    <h3>Fast Learning</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">02</span>
+                    <h3>Self-Learning & Continuous Learning</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">03</span>
+                    <h3>Teamwork & Collaboration</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">04</span>
+                    <h3>Problem-Solving</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">05</span>
+                    <h3>Time Management</h3>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-number">06</span>
+                    <h3>Adaptability</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-heading">
+                <h2>Projects</h2>
+                <p>Explore my projects and practical experience.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project">
+                    <div class="project-top">
+                        <span class="project-icon">&lt;/&gt;</span>
+                        <span class="project-number">01</span>
+                    </div>
+
+                    <h3>Project 00</h3>
+                    <p>
+                        Introduction to Linux, terminal commands,
+                        shell scripting, and Git.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Linux</span>
+                        <span>Git</span>
+                    </div>
+
+                    <a href="https://github.com/sebaemran/discovery-web-piscine"
+                       target="_blank" rel="noopener noreferrer">
+                        View on GitHub <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="project">
+                    <div class="project-top">
+                        <span class="project-icon">01</span>
+                        <span class="project-number">02</span>
+                    </div>
+
+                    <h3>Project 01</h3>
+                    <p>
+                        HTML fundamentals, semantic elements,
+                        and web page structure.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>Web</span>
+                    </div>
+
+                    <a href="https://github.com/sebaemran/Project-01"
+                       target="_blank" rel="noopener noreferrer">
+                        View on GitHub <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="project">
+                    <div class="project-top">
+                        <span class="project-icon">02</span>
+                        <span class="project-number">03</span>
+                    </div>
+
+                    <h3>Project 02</h3>
+                    <p>
+                        CSS layouts, positioning, Flexbox,
+                        Grid, and responsive design.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>CSS</span>
+                        <span>Responsive Design</span>
+                    </div>
+
+                    <a href="https://github.com/sebaemran/Project-02"
+                       target="_blank" rel="noopener noreferrer">
+                        View on GitHub <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="project">
+                    <div class="project-top">
+                        <span class="project-icon">JS</span>
+                        <span class="project-number">04</span>
+                    </div>
+
+                    <h3>Project 03</h3>
+                    <p>
+                        JavaScript fundamentals, DOM manipulation,
+                        and interactive web pages.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>DOM</span>
+                    </div>
+
+                    <a href="https://github.com/sebaemran/Project-03"
+                       target="_blank" rel="noopener noreferrer">
+                        View on GitHub <span>↗</span>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="connect" class="connect-section">
+            <h2>Connect With Me</h2>
+
+            <p class="section-description">
+                Feel free to connect with me through the following platforms.
+            </p>
+
+            <div class="connect-cards">
+                <a href="tel:+962789818166" class="connect-card">
+                    <div class="connect-icon">📱</div>
+                    <h3>Phone</h3>
+                    <p>+962 789818166</p>
+                </a>
+
+                <a href="https://www.linkedin.com/in/seba-emran-4a5a35342"
+                   target="_blank" rel="noopener noreferrer"
+                   class="connect-card">
+                    <div class="connect-icon">in</div>
+                    <h3>LinkedIn</h3>
+                    <p>Let's connect professionally</p>
+                </a>
+
+                <a href="https://github.com/sebaemran"
+                   target="_blank" rel="noopener noreferrer"
+                   class="connect-card">
+                    <div class="connect-icon">⌘</div>
+                    <h3>GitHub</h3>
+                    <p>Explore my projects</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+
+            <form class="contact-form" id="contact-form">
+                <input type="text" id="name" name="from_name"
+                       placeholder="Your Name" required>
+
+                <input type="email" id="email" name="from_email"
+                       placeholder="Your Email" required>
+
+                <textarea id="message" rows="5" name="message"
+                          placeholder="Write your message..."
+                          required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
