@@ -55,7 +55,7 @@ section h2 {
 }
 
 header {
-    background-color: #734189;
+    background-color: #381246;
     color: white;
     position: sticky;
     top: 0;
@@ -151,7 +151,7 @@ button:hover {
     margin-top: 15px;
     padding: 11px 18px;
     border-radius: 7px;
-    background-color: #8e4c9b;
+    background-color: #381246;
     color: white;
     text-decoration: none;
     font-size: 0.9rem;
@@ -409,7 +409,7 @@ button:hover {
     width: 100%;
     margin-top: 8px;
     padding: 13px;
-    background-color: #8e4c9b;
+    background-color: #381246;
     color: white;
     font-size: 1rem;
 }
@@ -420,14 +420,14 @@ button:hover {
 
 footer {
     padding: 23px 20px;
-    background-color: #734189;
+    background-color: #381246;
     color: white;
     text-align: center;
     font-size: 0.85rem;
 }
 
 body.dark {
-    background-color: #362943;
+    background-color: #010101;
     color: #f0e9f3;
 }
 
@@ -470,11 +470,6 @@ body.dark .contact-form textarea {
     background-color: #211b27;
     color: white;
     border-color: #514358;
-}
-
-body.dark #themeButton {
-    background-color: #362943;
-    color: white;
 }
 
 @media (max-width: 850px) {
